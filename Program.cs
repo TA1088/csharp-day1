@@ -20,7 +20,7 @@ namespace hwapp
             myNum *= 2;
             Console.WriteLine(15 % 12);
 
-            bool isAwesome = true;
+            int OtherNumber = 8;
 
         }
     }
