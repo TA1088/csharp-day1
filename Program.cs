@@ -21,7 +21,6 @@ namespace hwapp
             //myNum = myNum * 2;
             //myNum *= 2;
             //Console.WriteLine(15 % 12);
-            //int OtherNumber = 8;
             // if (name.ToLower() =="patrick" && age == "30")
             // {
             //     Console.WriteLine("YOU ROCK"); //true
@@ -34,7 +33,7 @@ namespace hwapp
             // {
             //     Console.WriteLine("Yo dawg I heard you like TV's");
             // }
-
+            
             // switch(name)
             // {
             //     case "patrick":
@@ -55,6 +54,7 @@ namespace hwapp
 
             int intAge = 0;
 
+
             if(Int32.TryParse(age, out intAge))
             {
                 if(intAge > 21)
@@ -70,7 +70,6 @@ namespace hwapp
             {
                 System.Console.WriteLine("Invalid Input");
             }
-
             
             System.Console.WriteLine("Goodbye");
         }
